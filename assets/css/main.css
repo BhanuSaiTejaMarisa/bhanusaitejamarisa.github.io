@@ -3268,8 +3268,9 @@ input, select, textarea {
 		font:inherit;
 		width: 65%;
 		height:60px;
-		
-		background-color: #192924;
+		background-image: url("../../images/nav_image.jpg");
+		/* background-color: #192924; */
+		background-attachment: scroll,								scroll;
 		position: -webkit-sticky;
 		position: sticky;
 		/* position: absolute; */
@@ -3308,3 +3309,19 @@ input, select, textarea {
 			/* background-color: tomato; */
 		}
 	}
+#four img{
+	 width: 60px;
+	 /* border: 1px solid rgb(8, 78, 95); */
+	 margin: 10px;
+	 box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}	
+ #two article div{
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	height: 342px;
+	border-radius: 5px;
+
+ }
+ #two h3,#two p, #two button{
+	margin-left:5px;
+ }
+
