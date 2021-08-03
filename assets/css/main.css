@@ -3265,8 +3265,10 @@ input, select, textarea {
     border-color: #49bf9d;
     color: #ffffff !important; */
 	#nav{
+		font:inherit;
 		width: 65%;
 		height:60px;
+		
 		background-color: #192924;
 		position: -webkit-sticky;
 		position: sticky;
@@ -3280,14 +3282,19 @@ input, select, textarea {
 		position: relative;
 		top:35%;
 		left:0;
+		padding-left: 40px;
 	}
 	#nav a{
 		color: white;
 		padding:15px;
 		margin: 10px;
 		margin-top: 5px;
-		text-decoration: none;
-
+		text-decoration: underline 3px;
+		text-underline-offset: 2px;
+		text-decoration-color:#356858;
+		/* border-bottom: 3px solid #345c4f;
+		padding-bottom: 2px; */
+		
 	}
 	@media screen and ( max-width:1300px) {
 		#nav{
