@@ -3264,3 +3264,40 @@ input, select, textarea {
     background-color: #49bf9d;
     border-color: #49bf9d;
     color: #ffffff !important; */
+	#nav{
+		width: 65%;
+		height:60px;
+		background-color: #192924;
+		position: -webkit-sticky;
+		position: sticky;
+		/* position: absolute; */
+		left:35%;
+		top:0;
+		z-index : 1;
+	}
+	#nav div{
+		/* background-color: tomato; */
+		position: relative;
+		top:35%;
+		left:0;
+	}
+	#nav a{
+		color: white;
+		padding:15px;
+		margin: 10px;
+		margin-top: 5px;
+		text-decoration: none;
+
+	}
+	@media screen and ( max-width:1300px) {
+		#nav{
+			width:70%;
+			/* background-color: tomato; */
+		}
+	}
+	@media screen and ( max-width:980px) {
+		#nav{
+			width:100%;
+			/* background-color: tomato; */
+		}
+	}

@@ -127,3 +127,10 @@ viewCode[1].addEventListener("click",()=>{
 	//console.log("working");
 	window.location.href="https://github.com/BhanuSaiTejaMarisa/ganga"
 })
+
+// var resume=document.querySelectorAll("nav>div>a")
+// resume[4].addEventListener("click",(e)=>{
+// 	console.log("clicked");
+// 	// e.preventDefault()
+// 	// window.open("./\Bhanu FSWD Resume\.pdf")
+// })
