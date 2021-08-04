@@ -117,15 +117,15 @@
 })(jQuery);
 console.log(window.location);
 var viewCode=document.getElementsByClassName("fetchCode")
-viewCode[0].addEventListener("click",()=>{
+viewCode[0].addEventListener("click",(e)=>{
 	//console.log("working");
-	
-	window.location.href="https://github.com/TusharTaral/Ravi_Booking.com"
+	e.preventDefault()
+	window.open("https://github.com/TusharTaral/Ravi_Booking.com")
 })
 //https://github.com/BhanuSaiTejaMarisa/ganga
 viewCode[1].addEventListener("click",()=>{
 	//console.log("working");
-	window.location.href="https://github.com/BhanuSaiTejaMarisa/ganga"
+	window.open("https://github.com/BhanuSaiTejaMarisa/ganga")
 })
 
 // var resume=document.querySelectorAll("nav>div>a")

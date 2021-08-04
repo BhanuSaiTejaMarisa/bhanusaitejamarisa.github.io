@@ -2684,7 +2684,7 @@ input, select, textarea {
 	#main {
 		margin-left: 35%;
 		max-width: 54em;
-		padding: 8em 4em 4em 4em;
+		padding: 4em 4em 4em 4em;
 		width: calc(100% - 35%);
 	}
 
@@ -3028,7 +3028,7 @@ input, select, textarea {
 			#main {
 				margin-left: 30%;
 				max-width: none;
-				padding: 6em 3em 3em 3em;
+				padding: 3em 3em 3em 3em;
 				width: calc(100% - 30%);
 			}
 
@@ -3281,7 +3281,7 @@ input, select, textarea {
 	#nav div{
 		/* background-color: tomato; */
 		position: relative;
-		top:35%;
+		top:30%;
 		left:0;
 		padding-left: 40px;
 	}
@@ -3289,26 +3289,16 @@ input, select, textarea {
 		color: white;
 		padding:15px;
 		margin: 10px;
-		margin-top: 5px;
+		/* margin-top: 5px; */
 		text-decoration: underline 3px;
 		text-underline-offset: 2px;
 		text-decoration-color:#356858;
 		/* border-bottom: 3px solid #345c4f;
 		padding-bottom: 2px; */
+		border-bottom-style: none;
 		
 	}
-	@media screen and ( max-width:1300px) {
-		#nav{
-			width:70%;
-			/* background-color: tomato; */
-		}
-	}
-	@media screen and ( max-width:980px) {
-		#nav{
-			width:100%;
-			/* background-color: tomato; */
-		}
-	}
+
 #four img{
 	 width: 60px;
 	 /* border: 1px solid rgb(8, 78, 95); */
@@ -3324,4 +3314,34 @@ input, select, textarea {
  #two h3,#two p, #two button{
 	margin-left:5px;
  }
+#one>div{
+	
+	margin: auto;
+}
+#one img{
+	transform: rotate(-0.2deg);
+	/* width:1000px; */
+	width:90%;
+	margin-left:7%;
+}
+@media screen and ( max-width:1300px) {
+	#nav{
+		width:70%;
+		/* background-color: tomato; */
+	}
+}
+@media screen and ( max-width:980px) {
+	#nav{
+		width:100%;
+		/* background-color: tomato; */
+	}
+}
+@media screen and ( max-width:600px) {
+	#nav{
+		height: 100px;
+		
+	}
+}
+/* .main{
 
+} */
