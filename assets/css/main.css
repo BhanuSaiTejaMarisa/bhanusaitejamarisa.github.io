@@ -2684,7 +2684,7 @@ input, select, textarea {
 	#main {
 		margin-left: 35%;
 		max-width: 54em;
-		padding: 4em 4em 4em 4em;
+		padding: 8em 4em 4em 4em;
 		width: calc(100% - 35%);
 	}
 
@@ -3028,7 +3028,7 @@ input, select, textarea {
 			#main {
 				margin-left: 30%;
 				max-width: none;
-				padding: 3em 3em 3em 3em;
+				padding: 6em 3em 3em 3em;
 				width: calc(100% - 30%);
 			}
 
@@ -3173,12 +3173,12 @@ input, select, textarea {
 		/* Main */
 
 			#main {
-				padding: 2.25em 1.5em 0.25em 1.5em;
+				padding: 4em 1.5em 0.25em 1.5em;
 			}
 
 				#main > section {
 					margin: 2.25em 0 0 0;
-					padding: 2.25em 0 0 0;
+					padding: 4em 0 0 0;
 				}
 
 		/* Poptrox */
@@ -3268,7 +3268,7 @@ input, select, textarea {
 		font:inherit;
 		width: 65%;
 		height:60px;
-		background-image: url("../../images/nav_image.jpg");
+		background-image: url("../../images/nav_image.jpg"),url("../../images/nav_image.jpg");
 		/* background-color: #192924; */
 		background-attachment: scroll,								scroll;
 		position: -webkit-sticky;
@@ -3337,15 +3337,20 @@ input, select, textarea {
 	}
 }
 @media screen and ( max-width:600px) {
-	#nav{
-		height: 100px;
-		
-	}
+	
 	#nav a{
 		padding:10px;
 		margin: 10px;
 	}
 }
+@media screen and ( max-width:537px) {
+	
+#nav{
+		height: 100px;
+		
+	}
+}
+
 @media screen and ( max-width:376px) {
 	#nav div{
 		position: relative;
@@ -3354,17 +3359,28 @@ input, select, textarea {
 		
 		
 	}
+
 	
 	#nav a{
 		padding:10px;
 		margin: 10px;
 	}
 }
-@media screen and ( max-width:346px) {
-#nav{
-	height: 120px;
-}
+@media screen and ( max-width:327px) {
+	#nav div{
+		position: relative;
+		top: 10%;
+		left: -10px;
+		
+		
+	}
+	#nav{
+		height: 120px;
+	}
 }
 /* .main{
 
 } */
+html {
+	scroll-behavior: smooth;
+  }
