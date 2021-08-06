@@ -130,7 +130,7 @@ viewCode[1].addEventListener("click",()=>{
 //https://github.com/BhanuSaiTejaMarisa/ganga
 viewCode[2].addEventListener("click",()=>{
 	//console.log("working");
-	window.open("https://github.com/BhanuSaiTejaMarisa/ganga")
+	window.open("https://github.com/Ramaruva/ganga")
 })
 viewCode[3].addEventListener("click",()=>{
 	//console.log("working");
