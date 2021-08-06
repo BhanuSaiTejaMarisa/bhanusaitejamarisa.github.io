@@ -122,10 +122,19 @@ viewCode[0].addEventListener("click",(e)=>{
 	e.preventDefault()
 	window.open("https://github.com/TusharTaral/Ravi_Booking.com")
 })
-//https://github.com/BhanuSaiTejaMarisa/ganga
 viewCode[1].addEventListener("click",()=>{
 	//console.log("working");
+	window.open("https://bhanubookingcom.netlify.app/")
+})
+
+//https://github.com/BhanuSaiTejaMarisa/ganga
+viewCode[2].addEventListener("click",()=>{
+	//console.log("working");
 	window.open("https://github.com/BhanuSaiTejaMarisa/ganga")
+})
+viewCode[3].addEventListener("click",()=>{
+	//console.log("working");
+	window.open("https://kickstarterclone.netlify.app/")
 })
 
 // var resume=document.querySelectorAll("nav>div>a")
